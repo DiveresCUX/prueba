@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&family=Roboto+Mono:wght@500&display=swap');
+
+
+:root{
+    --dark-primary-color: #689F38;
+    --ligth-primary-color: #DCEDC8;
+    --text-icons:#FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(fondopatitas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.header .banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 0px 0px;
+    
+}
+
+.header .banner .img-banner img{
+    height:135px;
+    width:auto;
+    margin: 5px 0px;
+}
+
+.header .banner .text h3{
+    font-size: 2rem;
+    color:var(--dark-primary-color);
+}
+
+.header .banner .text h2{
+    font-size: 3rem;
+}
+
+
+
+.header .nav {
+    display: flex;
+    justify-content: center ;
+    width: 100%;
+    background-color:#FFFFFF ;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.header .nav a:hover{
+    font-weight: 700;
+}
+
+.header .nav a{
+    display: flex;
+    text-decoration: none;
+    margin: 15px 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    border-radius: 15px;
+    
+}
+
+.header .nav a ion-icon{
+
+    font-size: 30px;
+}
+
+.header .login{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 0px;
+    height: 40px;
+}
+
+.header .login a{
+    margin: 15px 20px;
+    text-decoration: none;
+    color: black;
+    background-color: #ecfaf6;
+    padding: 3px;
+    border-radius: 10px;
+
+}
+
+.header .nav .login button{
+    border:none;
+    background: #DCEDC8;
+    border-radius: 25px;
+    padding: 8px;
+    outline: none;
+    border-radius: 8px;
+    margin: 0px 15px 0px 10px;
+
+} 
+
+.fotos{
+    display: flex;
+    width: 98%;
+    background-color: red;
+    
+}
+
+.fotos .fotos-uno{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+ 
+}
+
+.fotos .fotos-uno img  {
+    display: flex;
+    width: 499px;
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: row;
+    background-color: #beeee7;
+    height: 100px;
+    width: 95%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.footer .footer-contenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 50px;
+
+}
+
+.footer .footer-contenido .img-footer img{
+    height:90px;
+    width:auto;
+    margin: 5px 0px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius:100px;
+}
+

@@ -1,0 +1,31 @@
+.registro-usuario{
+    display: flex;
+    background-color: #bbf0e8;
+    margin: 10px 0px 20px 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.registro-usuario .form-usuario{
+    display: flex;
+    flex-direction: column;
+}
+
+.registro-usuario .form-usuario h2{
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+}
+
+
+
+.registro-usuario .form-usuario form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.registro-usuario .form-usuario form label{
+    display: flex;
+    margin: 0px 10px 10px 10px;
+}

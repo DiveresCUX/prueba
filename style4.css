@@ -1,0 +1,46 @@
+.cartas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+   
+    margin: 20px 10px 20px 10px;
+}
+.cartas .contenido{
+    display: flex;
+    flex-direction: column;
+    background-color: #bbf0e8;
+    width: 40%;
+    margin: 0px 0px 10px 5px;
+    padding: 10px;
+
+}
+
+.cartas .contenido img{
+    width:auto;
+    height:300px;
+}
+
+.cartas .contenido h3{
+    font-size: 25px;
+    margin: 5px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cartas .contenido p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.cartas .contenido .contenido-btn {
+    display:flex;
+    justify-content: center;
+}
+
+.cartas .contenido .contenido-btn a{
+    text-decoration: none;
+    background-color:aliceblue;
+    padding:10px;
+    border-radius: 5px;
+    margin: 10px 0px 2px 0px; 
+}
